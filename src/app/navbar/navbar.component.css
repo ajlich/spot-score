@@ -1,0 +1,17 @@
+
+  .navbar-new a {
+    color: #334854;
+    text-decoration: none;
+  }
+  .navbar-new li :hover {
+    border-bottom: 2px solid #ffff;
+  }
+  .navbar-new li{
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .navbar-new{
+    text-align: center;
+    margin-top: 80px;
+  }
+
