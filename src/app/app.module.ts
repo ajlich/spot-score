@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { TextComponent } from './text/text.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { InputComponent } from './input/input.component';
+import { RfiltrationComponent } from './rfiltration/rfiltration.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,14 @@ import { InputComponent } from './input/input.component';
     HeaderComponent,
     TextComponent,
     NavbarComponent,
-    InputComponent
+    InputComponent,
+    RfiltrationComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
