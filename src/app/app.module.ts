@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { InputComponent } from './input/input.component';
 import { RfiltrationComponent } from './rfiltration/rfiltration.component';
 import { FormsModule } from '@angular/forms';
+import { OffersComponent } from './offers/offers.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule } from '@angular/forms';
     TextComponent,
     NavbarComponent,
     InputComponent,
-    RfiltrationComponent
+    RfiltrationComponent,
+    OffersComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,9 @@
+<section id="section-offers" class="offers-offers">
+  <div *ngFor="let o of offers" class="offer">
+    <img [src]="o.img" alt="Offer Image" />
+    <div class="offer-details">
+      <div class="offer-name">{{ o.name }}</div>
+      <div class="offer-rating">{{ o.rating }}</div>
+    </div>
+  </div>
+</section>
