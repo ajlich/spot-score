@@ -7,8 +7,6 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
  
-  selectedOption:string="Best";
-  
   offers=[{
     id:1,
     name:'Noma, Denmark',
@@ -31,4 +29,5 @@ export class HomeComponent {
       type:'restaurant'
     }
 ]
+selectedOption:string="Best";
 }

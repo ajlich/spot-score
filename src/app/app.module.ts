@@ -32,7 +32,9 @@ const appRoute:Routes=[
     RfiltrationComponent,
     OffersComponent,
     MainComponent,
-    AboutComponent
+    AboutComponent,
+    HomeComponent,
+    PrivacyComponent
   ],
   imports: [
     BrowserModule,

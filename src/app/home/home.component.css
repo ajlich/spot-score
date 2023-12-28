@@ -32,7 +32,7 @@
     margin-top: 30px;
   }
   
-  input {
+  #searchInput {
     padding: 15px;
     width: 35%;
     border-radius: 15px;
@@ -49,10 +49,27 @@
     border: none;
     position: relative;
     left: -85px;
+    top: 7px;
   }
   
-
+  input{
+    margin-left: 20px;
+    margin-top: 15px;
+} 
+  .filter-container{
+    margin-left: 50px;
+    margin-top: 80px;
+    color: #334854;
   
+} 
+ h2{
+    margin-left: 20px;
+}   
+  
+
+
+   
+  /*OFFER*/
 #section-offers {
     background-color: #f5f5f583;
     color: #000000;
@@ -99,15 +116,3 @@
 }
 
 
-input{
-    margin-left: 20px;
-    margin-top: 15px;
-}
-.filter-container{
-    margin-left: 50px;
-    margin-top: 80px;
-    color: #334854;
-}
-h2{
-    margin-left: 20px;
-}
