@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'spot-score';
+  source:string='assets/Logo.png';
 }

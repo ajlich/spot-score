@@ -1,10 +1,35 @@
-<div class="top">
-  <app-header></app-header>
-  <app-text></app-text>
-  <app-navbar></app-navbar>
-  <app-input></app-input>
+<!-- <div class="main">
+  <div class="top">
+    <app-header></app-header>
+    <app-text></app-text>
+    <app-navbar></app-navbar>
+    <app-input></app-input>
+  </div>
+  <div class="content">
+    <app-rfiltration></app-rfiltration>
+    <app-offers></app-offers>
+  </div>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+</div> -->
+
+<div class="header-container">
+  <div class="logo">
+    <img [src]="source" height="100" width="120" />
+  </div>
+  <div class="navbar">
+    <ul>
+      <li><a routerLink="/Home">Home</a></li>
+      <li><a routerLink="/About">About us </a></li>
+      <li><a routerLink="/Privacy">Privacy</a></li>
+    </ul>
+  </div>
+  <div class="signin-button">
+    <button>Sign in</button>
+  </div>
 </div>
-<div class="content">
-  <app-rfiltration></app-rfiltration>
-  <app-offers></app-offers>
+
+<div>
+  <router-outlet></router-outlet>
 </div>

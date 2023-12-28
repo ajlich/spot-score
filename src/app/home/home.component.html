@@ -1,0 +1,49 @@
+<div class="div-text">
+  <h1>Looking for?</h1>
+</div>
+
+<div class="navbar-new">
+  <ul>
+    <li><a href="#">Search All</a></li>
+    <li><a href="#">Restaurants</a></li>
+    <li><a href="#">Hotels</a></li>
+    <li><a href="#">Movies</a></li>
+    <li><a href="#">Books</a></li>
+  </ul>
+</div>
+
+<div class="search-box">
+  <input type="text" placeholder="Looking for restaurants, hotels ... " />
+  <button>Search</button>
+</div>
+
+<div class="filter-container">
+  <h2>{{ selectedOption }} of restaurants</h2>
+
+  <input type="radio" name="filter" value="Best" [(ngModel)]="selectedOption" />
+  <span>Best</span>
+  <input
+    type="radio"
+    name="filter"
+    value="Latest"
+    [(ngModel)]="selectedOption"
+  />
+  <span>Latest</span>
+  <input
+    type="radio"
+    name="filter"
+    value="Most reviewed"
+    [(ngModel)]="selectedOption"
+  />
+  <span>Most reviewed</span>
+</div>
+
+<section id="section-offers" class="offers-offers">
+  <div *ngFor="let o of offers" class="offer">
+    <img [src]="o.img" alt="Offer Image" />
+    <div class="offer-details">
+      <div class="offer-name">{{ o.name }}</div>
+      <div class="offer-rating">{{ o.rating }}</div>
+    </div>
+  </div>
+</section>

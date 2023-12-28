@@ -1,17 +1,14 @@
-import { HttpClient } from '@angular/common/http';
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-offers',
-  templateUrl: './offers.component.html',
-  styleUrls: ['./offers.component.css']
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
 })
-export class OffersComponent {
-
-  constructor(public httpClient:HttpClient){
-
-  }
-
+export class HomeComponent {
+ 
+  selectedOption:string="Best";
+  
   offers=[{
     id:1,
     name:'Noma, Denmark',
