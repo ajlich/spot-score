@@ -10,11 +10,14 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ErrorComponent } from './error/error.component';
 
 const appRoute:Routes=[
+  {path:'',redirectTo:'Home',pathMatch:'full'},
   {path:'Home',component:HomeComponent},
   {path:'About',component:AboutComponent},
-  {path:'Privacy',component:PrivacyComponent}
+  {path:'Privacy',component:PrivacyComponent},
+  {path:'**',component:ErrorComponent}
 ]
 
 @NgModule({
@@ -24,7 +27,8 @@ const appRoute:Routes=[
     MainComponent,
     AboutComponent,
     HomeComponent,
-    PrivacyComponent
+    PrivacyComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
