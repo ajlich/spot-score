@@ -20,9 +20,13 @@
   </div>
   <div class="navbar">
     <ul>
-      <li><a routerLink="/Home">Home</a></li>
-      <li><a routerLink="/About">About us </a></li>
-      <li><a routerLink="/Privacy">Privacy</a></li>
+      <li [routerLinkActive]="'active'"><a routerLink="/Home">Home</a></li>
+      <li [routerLinkActive]="'active'">
+        <a routerLink="/About">About us </a>
+      </li>
+      <li [routerLinkActive]="'active'">
+        <a routerLink="/Privacy">Privacy</a>
+      </li>
     </ul>
   </div>
   <div class="signin-button">
