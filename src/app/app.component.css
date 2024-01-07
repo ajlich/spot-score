@@ -6,7 +6,9 @@
     padding: 10px;
     margin-top: 20px;
   }
- 
+ .navbar{
+  margin-left: -50px;
+ }
   .navbar a {
     color: #334854;
     text-decoration: none;
