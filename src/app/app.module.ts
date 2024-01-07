@@ -2,10 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {RouterModule, Routes} from '@angular/router';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
 import { FormsModule } from '@angular/forms';
 import{HttpClientModule} from '@angular/common/http';
-import { MainComponent } from './main/main.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { PrivacyComponent } from './privacy/privacy.component';
@@ -23,8 +21,6 @@ const appRoute:Routes=[
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    MainComponent,
     AboutComponent,
     HomeComponent,
     PrivacyComponent,
