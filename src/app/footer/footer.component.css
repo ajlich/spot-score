@@ -1,0 +1,11 @@
+.div-footer{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+p{
+    font-size: 13px;
+    margin-top: 25px;
+    margin-left: 20px;
+    color: grey;
+}

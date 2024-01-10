@@ -9,12 +9,15 @@ import { HomeComponent } from './home/home.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ErrorComponent } from './error/error.component';
+import { FooterComponent } from './footer/footer.component';
+import { SigninComponent } from './signin/signin.component';
 
 const appRoute:Routes=[
   {path:'',redirectTo:'Home',pathMatch:'full'},
   {path:'Home',component:HomeComponent},
   {path:'About',component:AboutComponent},
   {path:'Privacy',component:PrivacyComponent},
+  {path:'Signin',component:SigninComponent},
   {path:'**',component:ErrorComponent}
 ]
 
@@ -24,7 +27,9 @@ const appRoute:Routes=[
     AboutComponent,
     HomeComponent,
     PrivacyComponent,
-    ErrorComponent
+    ErrorComponent,
+    FooterComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,
