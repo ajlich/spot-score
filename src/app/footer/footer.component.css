@@ -1,11 +1,22 @@
-.div-footer{
+*
+.div-footer {
     display: flex;
-    margin-top: 50px;
+    align-items: center; 
     margin-left: 50px;
+    width: 100%; 
+    position: fixed;    
+    bottom: 0%;
+    background-color: #EFECEA;
+    margin-top: 5%;
 }
-p{
+
+p {
     font-size: 13px;
-    margin-top: 25px;
-    margin-left: 20px;
     color: grey;
+    margin: 0;
+}
+
+.logo img {
+    height: 70px;
+    width: 80px;
 }
