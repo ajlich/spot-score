@@ -95,4 +95,10 @@ export class HomeComponent {
 
 
 selectedOption:string="Best";
+selectedOffer:string='restaurant';
+
+
 }
+
+
+

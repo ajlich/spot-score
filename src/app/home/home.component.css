@@ -9,7 +9,7 @@
 .navbar-new a {
     color: #334854;
     text-decoration: none;
-   
+
   }
   .navbar-new li :hover {
     border-bottom: 2px solid #ffff;
@@ -31,14 +31,14 @@
     align-items: center;
     margin-top: 30px;
   }
-  
+
   #searchInput {
     padding: 15px;
     width: 35%;
     border-radius: 15px;
     border: none;
   }
-  
+
   button {
     padding: 8px;
     width:80px ;
@@ -51,24 +51,24 @@
     left: -85px;
     top: 7px;
   }
-  
+
   input{
     margin-left: 20px;
     margin-top: 15px;
-} 
+}
   .filter-container{
     margin-left: 50px;
     margin-top: 80px;
     color: #334854;
-  
-} 
+
+}
  h2{
     margin-left: 20px;
-}   
-  
+}
 
 
-   
+
+
   /*OFFER*/
 #section-offers {
     background-color: #f5f5f583;
@@ -114,5 +114,4 @@
 .offer:hover {
     transform: scale(1.05);
 }
-
 
