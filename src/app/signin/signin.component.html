@@ -7,21 +7,36 @@
   </head>
   <body>
     <h2>Join us and share your experiences with us!</h2>
-    <form>
+    <form [formGroup]="reactiveForm" (ngSubmit)="onSumbit()">
       <button class="close-btn">x</button>
       <label for="surname">Email:</label>
-      <input type="text" id="email" name="email" required />
+      <input
+        type="text"
+        id="email"
+        name="email"
+        formControlName="email"
+        placeholder="example@gmail.com"
+      />
 
-      <label for="password">Username:</label>
-      <input type="username" id="username" name="username" required />
+      <label for="korisnickoime">Username:</label>
+      <input
+        type="username"
+        id="username"
+        name="username"
+        formControlName="userName"
+        placeholder="Username"
+      />
 
-      <label for="email">Password:</label>
-      <input type="password" id="password" name="password" required />
+      <label for="lozinka">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        formControlName="password"
+        placeholder="Password"
+      />
 
       <button class="signup-btn" type="submit">Sign Up</button>
     </form>
   </body>
 </html>
-
-<!-- 
-za button : onclick="closeForm()" -->

@@ -91,11 +91,15 @@ export class HomeComponent {
       rating:'stars',
       type:'movie'
     }
+
 ]
 
-
+ponudePodaci:any;
+filterPonude:any;
+filterNaziv: any;
 selectedOption:string="Best";
-selectedOffer:string='restaurant';
+
+selectedFilterOption:string='movie';
 
 
 }
