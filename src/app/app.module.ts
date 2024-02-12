@@ -11,6 +11,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ErrorComponent } from './error/error.component';
 import { FooterComponent } from './footer/footer.component';
 import { SigninComponent } from './signin/signin.component';
+import { LoginComponent } from './login/login.component';
 
 const appRoute:Routes=[
   {path:'',redirectTo:'Home',pathMatch:'full'},
@@ -18,6 +19,7 @@ const appRoute:Routes=[
   {path:'About',component:AboutComponent},
   {path:'Privacy',component:PrivacyComponent},
   {path:'Signin',component:SigninComponent},
+  {path:'Login',component:LoginComponent},
   {path:'**',component:ErrorComponent}
 ]
 
@@ -29,7 +31,8 @@ const appRoute:Routes=[
     PrivacyComponent,
     ErrorComponent,
     FooterComponent,
-    SigninComponent
+    SigninComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
