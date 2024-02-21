@@ -14,9 +14,6 @@
     text-decoration: none;
     font-weight: bold;
   }
-  .navbar li :hover {
-  border-bottom: 2px solid #ffff;
-  }
   .logo{
     margin-left: 50px;
   }

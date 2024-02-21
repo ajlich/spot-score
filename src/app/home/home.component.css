@@ -74,7 +74,7 @@
     background-color: #f5f5f583;
     color: #000000;
     padding: 30px 0;
-    width: 90%; /* Promenjeno na 90% umesto 100% */
+    width: 90%; 
     margin: auto;
     display: flex;
     flex-wrap: wrap;

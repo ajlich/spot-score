@@ -1,13 +1,14 @@
-*
+
 .div-footer {
     display: flex;
     align-items: center; 
-    margin-left: 50px;
+    margin-left: 68px;
     width: 100%; 
     position: fixed;    
     bottom: 0%;
     background-color: #EFECEA;
     margin-top: 5%;
+    height: 50px;
 }
 
 p {
@@ -16,7 +17,3 @@ p {
     margin: 0;
 }
 
-.logo img {
-    height: 70px;
-    width: 80px;
-}
