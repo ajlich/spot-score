@@ -2,9 +2,8 @@
 .div-footer {
     display: flex;
     align-items: center; 
-    margin-left: 68px;
+    margin-left: 70px;
     width: 100%; 
-    position: fixed;    
     bottom: 0%;
     background-color: #EFECEA;
     margin-top: 5%;
