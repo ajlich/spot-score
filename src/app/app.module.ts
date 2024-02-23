@@ -18,7 +18,7 @@ const appRoute:Routes=[
   {path:'Home',component:HomeComponent},
   {path:'About',component:AboutComponent},
   {path:'Privacy',component:PrivacyComponent},
-  {path:'Signin',component:SigninComponent},
+  {path:'Signup',component:SigninComponent},
   {path:'Login',component:LoginComponent},
   {path:'**',component:ErrorComponent}
 ]

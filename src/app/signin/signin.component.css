@@ -75,3 +75,17 @@ img{
     border-radius: 50%;
     position: relative;
 }
+
+.bordert{
+    border-top: 1px solid #aaa;
+    position: relative;
+  }
+  
+  .bordert::after{
+    content: "or conncect with google";
+    position: absolute;
+    top: -13px;
+    left: 31%;
+    background-color: #ffff;
+    padding: 0 8px;
+  }

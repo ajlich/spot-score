@@ -82,11 +82,10 @@ img{
 }
 
 .bordert::after{
-  content: "or conncect with google";
+  content: "or connect with google";
   position: absolute;
   top: -13px;
   left: 31%;
   background-color: #ffff;
-  color: #7b7676bb;
   padding: 0 8px;
 }
