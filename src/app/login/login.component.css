@@ -1,5 +1,6 @@
 .outer{
   height: 100vh;
+  margin-left: -100px;
 }
 
 .panel-heading{
